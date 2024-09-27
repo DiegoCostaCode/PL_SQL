@@ -1,5 +1,6 @@
---create table aluno (ra NUMBER generated always as identity PRIMARY KEY, nome VARCHAR2(30));
+create table aluno (ra NUMBER generated always as identity PRIMARY KEY, nome VARCHAR2(30));
 
+drop table aluno 
 select * from aluno
 
 CREATE OR REPLACE PROCEDURE PRD_INSERT_ALUNO IS
